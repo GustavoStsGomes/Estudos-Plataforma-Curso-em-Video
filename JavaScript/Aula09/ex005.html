@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb(54, 54, 170);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascritp.</p>
+    <div class="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body // atribundo todo o body html a uma variavel
+        var p1 = window.document.getElementsByTagName("p")[0] // pegando elemento via tag, escolhendo elemento como em vetor
+        var d = window.document.getElementById('msg') // criando variavel por ID
+
+        /*
+        window.document.write('Está escrito assim: ' + p1.innerText) // utilizando a variavel criada
+        corpo.style.background = "black" // manipulando a variavel criada
+        d.style.background = 'green' 
+        window.document.getElementById('msg').innerText = 'Olá' // manupulando sem criar variavel
+        */
+
+        //selecionando elemento por selector
+        var b = window.document.querySelector('div.msg')
+        b.style.background = 'gray'
+
+    </script>
+
+</body>
+</html>
