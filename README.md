@@ -1,2 +1,6 @@
 # Estudos-Plataforma-Curso-em-Video
- cursos realizados ou em progresso, Plataforma Curso em Vídeo.
+ ## [Plataforma Curso em Vídeo](https://www.cursoemvideo.com)
+
+ ### cursos realizados ou em progresso:
+  - Git e GitHub;
+  - JavaScript;
